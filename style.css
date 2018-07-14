@@ -13,3 +13,73 @@ section {
 	height: 100%;
 	background: lin
 }
+.fish {
+	position: absolute;
+}
+
+.fish1 {
+	top: 30%;
+	height: 120px;
+	animation: animate 15s linear infinite;
+	opacity: 0.5;
+}
+
+.fish2 {
+	top: 60%;
+	height: 60px;
+	animation: animate2 30s linear infinite;
+	opacity: 0.5;
+}
+
+.fish3 {
+	top: 70%;
+	height: 80px;
+	animation: animate 20s linear infinite;
+	opacity: 0.3;
+}
+
+.fish4 {
+	top: 15%;
+	height: 80px;
+	animation: animate2 45s linear infinite;
+	opacity: 0.7;
+}
+
+@keyframes animate{
+	0% {
+		transform: translateY(-50px);
+		left: -25%;
+	}
+	25% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(50px);
+	}
+	75% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(-50px);
+		left: 150%;
+	}
+}
+
+@keyframes animate2{
+	0% {
+		transform: translateY(-30px);
+		right: -25%;
+	}
+	25% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(50px);
+	}
+	75% {
+		transform: translateY(60px);
+	}
+	100% {
+		transform: translateY(-30px);
+		right: 150%;
+	}
