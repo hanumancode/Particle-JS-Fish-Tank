@@ -1,13 +1,18 @@
-body {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow: hidden;
 }
+
 section {
 	height: 100vh;
-	  background: linear-gradient(to top, #1e2442 , #327576);
-
+	background: linear-gradient(to top, #1e2442 , #327576);
 }
+
 #particles {
 	width: 100%;
 	height: 100%;
